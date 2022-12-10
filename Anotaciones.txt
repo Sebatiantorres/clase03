@@ -1,0 +1,8 @@
+npm install : para descargar las dependencias
+se divide toda la pagina en componentes
+
+se verifica si el componente es mutable o inmutable
+
+las propiedades - props
+
+git checkout curso-001 para actualizar todo el codigo
