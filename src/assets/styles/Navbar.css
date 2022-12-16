@@ -1,4 +1,68 @@
-.navbar {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #24252a;
+}
+li, a, button {
+  font-family: "Monserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.logo {
+  width: 45px;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.elements {
+  list-style: none;
+}
+
+.elements li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.elements li a {
+  transition: all 0.3s ease 0s;
+}
+
+.elements li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+h1 {
+  position: absolute;
+  left: 15%;
+  font-family: "Monserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+/*.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,4 +100,4 @@
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: rgb(255, 255, 255);
-}
+}*/
