@@ -1,12 +1,13 @@
 import React from 'react'
 import '../assets/styles/footer2.css'
+import { SlSocialYoutube, SlSocialInstagram, SlSocialFacebook, SlSocialTwitter } from 'react-icons/sl'
 
 function footer ({ email, number, direction }) {
   return (
     <footer>
       <div className='footer-container'>
         <div className='content-foo'>
-          <h4>CRISTIAN VASQUEZ</h4>
+          <h4>SEBASTIAN TORRES</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim dolorum esse laboriosam tempora eaque modi delectus iure. Voluptates quia minus maxime exercitationem</p>
         </div>
         <div className='content-foo'>
@@ -39,16 +40,16 @@ function footer ({ email, number, direction }) {
         <h2><i className='far fa-copyright'>2021 Copyrigth: Derechos reservados</i></h2>
         <div className='redes-sociales'>
           <div className='bubble'>
-            <a href='#'><i className='icon-facebook'>s</i></a>
+            <a href='#'><i className='icon-facebook'><SlSocialFacebook /></i></a>
           </div>
           <div className='bubble'>
-            <a href='#'><i className='icon-instagram'>s</i></a>
+            <a href='#'><i className='icon-instagram'><SlSocialInstagram /></i></a>
           </div>
           <div className='bubble'>
-            <a href='#'><i className='icon-tumbler'>s</i></a>
+            <a href='#'><i className='icon-twitter'><SlSocialTwitter /></i></a>
           </div>
           <div className='bubble'>
-            <a href='#'><i className='icon-youtube-play'>s</i></a>
+            <a href='#'><i className='icon-youtube'><SlSocialYoutube /></i></a>
           </div>
         </div>
       </div>

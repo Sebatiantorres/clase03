@@ -88,3 +88,30 @@
     color: #1f2b40;
   }
   
+  .icon-youtube {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -2px;
+    font-size: 30px;
+  }
+
+  .icon-instagram {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -2px;
+    font-size: 30px;
+  }
+
+  .icon-twitter {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -2px;
+    font-size: 30px;
+  }
+
+  .icon-facebook {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -2px;
+    font-size: 30px;
+  }
