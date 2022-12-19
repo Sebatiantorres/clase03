@@ -2,6 +2,7 @@
 import React from 'react'
 /* import TorontoBanner from '../img/banner.jpg' */
 import '../assets/styles/banner.css'
+
 function Banner ({ color, description, title }) {
   return (
     <div className='banner'>

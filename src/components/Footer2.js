@@ -1,13 +1,14 @@
 import React from 'react'
 import '../assets/styles/footer2.css'
 import { SlSocialYoutube, SlSocialInstagram, SlSocialFacebook, SlSocialTwitter } from 'react-icons/sl'
+import { BiCopyright } from 'react-icons/bi'
 
 function footer ({ email, number, direction }) {
   return (
     <footer>
       <div className='footer-container'>
         <div className='content-foo'>
-          <h4>SEBASTIAN TORRES</h4>
+          <h4 className='name'>SEBASTIAN TORRES</h4>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim dolorum esse laboriosam tempora eaque modi delectus iure. Voluptates quia minus maxime exercitationem</p>
         </div>
         <div className='content-foo'>
@@ -21,10 +22,10 @@ function footer ({ email, number, direction }) {
         </div>
         <div className='content-foo'>
           <h4>ENLACES DE INTERES</h4>
-          <a href=''>Términos y Condiciones</a>
-          <a href=''>Quiénes Somos</a>
-          <a href=''>Libro de Reclamaciones</a>
-          <a href=''>Ayuda</a>
+          <a href='#'>Términos y Condiciones</a>
+          <a href='#'>Quiénes Somos</a>
+          <a href='#'>Libro de Reclamaciones</a>
+          <a href='#'>Ayuda</a>
         </div>
         <div className='content-foo'>
           <h4>CONTACTANOS</h4>
@@ -37,7 +38,7 @@ function footer ({ email, number, direction }) {
         </div>
       </div>
       <div className='copyrigth'>
-        <h2><i className='far fa-copyright'>2021 Copyrigth: Derechos reservados</i></h2>
+        <h2><i className='far_fa-copyrigth'><b className='icon-copyrigth'><BiCopyright /></b>2021 Copyrigth: Derechos reservados</i></h2>
         <div className='redes-sociales'>
           <div className='bubble'>
             <a href='#'><i className='icon-facebook'><SlSocialFacebook /></i></a>

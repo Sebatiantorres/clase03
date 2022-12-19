@@ -28,8 +28,14 @@
     padding-bottom: 5px;
     margin-bottom: 10px;
   }
+  .content-foo .name {
+    margin-bottom: 0px;
+  }
   .content-foo p {
+    position: absolute;
+    padding-top: 15px;
     color: #ccc;
+    width: 250px;
   }
   .content-foo ul {
     color: #ccc;
@@ -62,6 +68,7 @@
     margin: 15px 0 15px 25px;
     color: #ccc;
   }
+
   .copyrigth .redes-sociales {
     display: flex !important;
     text-align: center;
@@ -87,7 +94,6 @@
   .copyrigth .redes-sociales .bubble:hover i {
     color: #1f2b40;
   }
-  
   .icon-youtube {
     position: absolute;
     margin-left: -15px;
